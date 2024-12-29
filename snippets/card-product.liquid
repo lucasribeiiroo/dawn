@@ -203,7 +203,7 @@
                 </span>
               </p>
             {%- endif -%}
-            {% if product.metafields.teste.key %} <span>Metafield - {{ product.metafields.teste.value }} </span> {% endif % }
+            {% if product.metafields %} <span>Metafield - {{ product.metafields }} </span> {% endif % }
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
