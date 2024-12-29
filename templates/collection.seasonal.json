@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "banner": {
       "type": "main-collection-banner",
@@ -20,6 +20,8 @@
     "call-to-action": {
       "type": "call-to-action",
       "settings": {
+        "pre-order-title": "Pre-order now!",
+        "pre-order-text": "Chose the one that make your style!"
       }
     },
     "product-grid": {
